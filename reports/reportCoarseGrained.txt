@@ -1,0 +1,144 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+jacobi-2d -O0 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.14500%
+[INFO] Normalized time: 9.38071533
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+jacobi-2d -O0 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.00800%
+[INFO] Normalized time: 9.37114766
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+jacobi-2d -O3 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.13600%
+[INFO] Normalized time: 1.60586333
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+jacobi-2d -O3 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.12700%
+[INFO] Normalized time: 1.60702533
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gramschmidt -O0 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.36100%
+[INFO] Normalized time: 7.45243533
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gramschmidt -O0 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.05400%
+[INFO] Normalized time: 7.46515800
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gramschmidt -O3 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.09000%
+[INFO] Normalized time: 3.46582800
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gramschmidt -O3 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.19700%
+[INFO] Normalized time: 3.47271766
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gemm -O0 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.00200%
+[INFO] Normalized time: 4.07235700
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gemm -O0 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.01100%
+[INFO] Normalized time: 4.07222433
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gemm -O3 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.03600%
+[INFO] Normalized time: 0.52814066
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gemm -O3 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.02800%
+[INFO] Normalized time: 0.52823600
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+correlation -O0 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.00700%
+[INFO] Normalized time: 5.62593433
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+correlation -O0 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.00900%
+[INFO] Normalized time: 5.62651866
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+correlation -O3 -DSTANDARD_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.00400%
+[INFO] Normalized time: 3.22740666
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+correlation -O3 -DLARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0%
+[INFO] Normalized time: 3.22699366
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+

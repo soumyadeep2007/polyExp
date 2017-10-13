@@ -1,0 +1,36 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+jacobi-2d -O3 -DEXTRALARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.08900%
+[INFO] Normalized time: 26.95802233
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gramschmidt -O3 -DEXTRALARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.09000%
+[INFO] Normalized time: 32.98205966
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+gemm -O3 -DEXTRALARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.08700%
+[INFO] Normalized time: 9.45424966
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running with:::::::::::::::::::::::::::::::::::::::::::::::::::
+correlation -O3 -DEXTRALARGE_DATASET
+[INFO] Running 5 times ./bench.out...
+[INFO] Maximal variance authorized on 3 average runs: 5%...
+[INFO] Maximal deviation from arithmetic mean of 3 average runs: 0.01500%
+[INFO] Normalized time: 55.92386133
+>>>>>>>>>>>>>>>>>>>>>>>--X-->>>>>>>>>>>>>>>>>>>>>>>
+
